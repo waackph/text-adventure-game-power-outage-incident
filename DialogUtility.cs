@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 namespace text_adventure
 {
+    /// <summary>Class <c>DialogUtility</c> implements a response UI system for player interaction.
+    /// </summary>
     public class DialogUtility
     {
         public static void ContinueText(){

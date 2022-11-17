@@ -1,9 +1,10 @@
 using System;
 
-using Newtonsoft.Json;
-
 namespace text_adventure
 {
+    /// <summary>Class <c>MiniGameUseAction</c> implements an action that starts a mini game
+    /// and handles its outcome.
+    /// </summary>
     public class MiniGameUseAction : UseAction
     {
         //[JsonProperty]

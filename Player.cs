@@ -2,6 +2,9 @@ using System;
 
 namespace text_adventure
 {
+    /// <summary>Class <c>Player</c> handles the inventory and interaction with a given item, character or room.
+    /// </summary>
+
      // This is more like an InteractionHandler (design is changing too often, so I will leave it as it is for now)
      // There is only interaction with items - the item has dependencies with a room, itself or other objects
    public static class Player

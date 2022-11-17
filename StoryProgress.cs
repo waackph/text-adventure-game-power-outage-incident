@@ -3,6 +3,10 @@ using System;
 
 namespace text_adventure
 {
+    /// <summary>Class <c>StoryProgress</c> handles story progression. 
+    /// It introduces a new game start and triggers when the end of the game is reached.
+    /// </summary>
+
     public static class StoryProgress
     {
         [JsonProperty]

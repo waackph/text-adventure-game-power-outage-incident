@@ -4,6 +4,10 @@ using Newtonsoft.Json;
 using System.IO;
 namespace text_adventure
 {
+    /// <summary>Class <c>InteractionManager</c> handles the input of the player, parses the commands and execute interactions accordingly.
+    /// It furthermore handles the room initilization from save files or as a new game.
+    /// </summary>
+
     // This is more like an InputHandler (design is changing too often, so I will leave it as it is for now)
     public static class InteractionManager
     {

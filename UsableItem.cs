@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 namespace text_adventure
 {
+    /// <summary>Class <c>UsableItem</c> is an Item that is usable which leads to a specific action.
+    /// </summary>
     public class UsableItem : Item
     {
         [JsonProperty]

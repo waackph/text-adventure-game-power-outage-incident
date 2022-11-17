@@ -1,8 +1,9 @@
 using System;
-using Newtonsoft.Json;
 
 namespace text_adventure
 {
+    /// <summary>Class <c>CodeMiniGame</c> implements a mini game where the player must enter the correct code.
+    /// </summary>
     public class CodeMiniGame : MiniGame
     {
         public string code;

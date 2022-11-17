@@ -3,6 +3,9 @@ using System;
 namespace text_adventure
 
 {
+    /// <summary>Class <c>Game</c> handles start, end and the game loop, so the Game is not terminated inadvertently.
+    /// </summary>
+
     public static class Game
     {
         public static bool gameLoop = true;

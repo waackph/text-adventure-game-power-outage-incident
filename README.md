@@ -1,6 +1,6 @@
 # The power outage incident
 
-A small text adventure prototype in plain C#.
+A small text adventure prototype in plain C#. For more information visit the [itch.io profile page](https://waackph.itch.io/the-power-outage-incident).
 
 ## Quickstart
 

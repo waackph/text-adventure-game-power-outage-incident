@@ -1,8 +1,10 @@
-using System;
 using System.Collections.Generic;
 
 namespace text_adventure
 {
+    /// <summary>Class <c>DialogTreeNode</c> is a component that builds a dialog tree structure.
+    /// It has an option, text, response and children nodes, connected by the Node.
+    /// </summary>
     public class DialogTreeNode
     {
         private string option;

@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using System;
 namespace text_adventure
 {
+    /// <summary>Class <c>Inventory</c> holds data of Items that have been picked up by the player.
+    /// </summary>
     public static class Inventory
     {
         public static List<Item> Items;

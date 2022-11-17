@@ -3,6 +3,9 @@ using System;
 using System.Collections.Generic;
 namespace text_adventure
 {
+    /// <summary>Class <c>UsableStatefullItem</c> is an Item that is usable which leads to a specific action.
+    /// But the executed action depends on the state the Item is currently in.
+    /// </summary>
     public class UsableStatefullItem : UsableItem
     {
         [JsonProperty]

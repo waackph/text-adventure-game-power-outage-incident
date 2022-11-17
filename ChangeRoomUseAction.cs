@@ -1,14 +1,8 @@
-using System;
-
-using Newtonsoft.Json;
-
 namespace text_adventure
 {
     public class ChangeRoomUseAction : UseAction
     {
-        //[JsonProperty]
         public string requiredRoom;
-        //[JsonProperty]
         public string newRoom;
 
         public ChangeRoomUseAction(string requiredRoom, string newRoom){

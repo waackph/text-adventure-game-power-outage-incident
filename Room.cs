@@ -2,6 +2,9 @@ using System.Collections.Generic;
 
 namespace text_adventure
 {
+    /// <summary>Class <c>Room</c> holds data of the room as well as Items and Characters it contains.
+    /// </summary>
+
     public class Room : Entity
     {
         public List<Item> Items;

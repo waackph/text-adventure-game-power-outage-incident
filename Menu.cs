@@ -1,7 +1,13 @@
 using System;
-using System.Runtime.Serialization;
+
 namespace text_adventure
 {
+    /// <summary>Class <c>Menu</c> handles all menu options and its execution.
+    /// This includes starting a new game, continuing at the latest save game,
+    /// saving the current game progression, loading a specific save game,
+    /// and quiting the game.
+    /// </summary>
+
     public static class Menu
     {
         public static bool run = false;

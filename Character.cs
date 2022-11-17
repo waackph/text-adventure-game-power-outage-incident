@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 namespace text_adventure
 {
+    /// <summary>Class <c>Character</c> holds data for a Character in a Room.
+    /// A Character has also the logic to traverse a dialog tree.
+    /// </summary>
     public class Character : Entity
     {
         private DialogTreeNode root;

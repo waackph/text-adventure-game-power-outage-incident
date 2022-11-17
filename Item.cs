@@ -1,7 +1,7 @@
-using System;
-
 namespace text_adventure
 {
+    /// <summary>Class <c>Item</c> holds data for an interactable Item.
+    /// </summary>
     public class Item : Entity
     {
         public bool isPickupAble;

@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 namespace text_adventure
 {
+    /// <summary>Class <c>PuzzleItem</c> is an Item that can be combined or used with specific items.
+    /// </summary>
     public class PuzzleItem : Item
     {
         
